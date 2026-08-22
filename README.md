@@ -1,21 +1,18 @@
 Put `Expanded_data_with_more_features.csv` here. Dataset source: https://www.kaggle.com/datasets/desalegngeb/students-exam-scores
 # Student Performance Analysis – EDA
+## Project Overview
 
-## 📌 Project Overview
+This project performs Exploratory Data Analysis (EDA) on student performance data to understand the factors associated with students' exam scores.
 
-This project performs Exploratory Data Analysis (EDA) on student performance data to identify the factors that influence students' exam scores.
+## Objectives
 
-The analysis explores relationships between academic performance and factors such as study habits, parental education, attendance, gender, and other student characteristics.
+- Analyze student performance and exam scores
+- Explore relationships between different student characteristics
+- Identify patterns affecting academic performance
+- Perform data cleaning and exploratory data analysis
+- Create meaningful data visualizations
 
-## 🎯 Objectives
-
-- Understand the distribution of student exam scores
-- Analyze factors associated with academic performance
-- Identify relationships between different student attributes and scores
-- Perform data cleaning and exploratory analysis
-- Visualize important patterns and correlations
-
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
@@ -24,29 +21,29 @@ The analysis explores relationships between academic performance and factors suc
 - Seaborn
 - Jupyter Notebook
 
-## 📊 Analysis Performed
+## Analysis Performed
 
-- Data loading and inspection
-- Data cleaning
-- Handling missing values
+- Data inspection and cleaning
 - Descriptive statistics
 - Univariate analysis
 - Bivariate analysis
 - Correlation analysis
 - Data visualization
-- Identification of important performance patterns
+- Performance pattern analysis
 
-## 📈 Key Insights
+## Project Files
 
-The analysis examines how student characteristics and study-related factors are associated with exam performance. Visualizations and statistical analysis are used to identify meaningful patterns in the dataset.
+- `Project-1-checkpoint.ipynb` – Main EDA notebook
+- `Expanded_data_with_more_features.csv` – Dataset
+- `student_performance_eda.md` – Supporting analysis documentation
 
-## 📂 Project Structure
+## How to Run
 
-```text
-student-performance-analysis/
-│
-├── Project-1-checkpoint.ipynb
-├── Expanded_data_with_more_features.csv
-├── student_performance_eda.md
-├── README.md
-└── .gitignore
+1. Download or clone this repository.
+2. Open `Project-1-checkpoint.ipynb` in Jupyter Notebook or VS Code.
+3. Keep the CSV file in the same folder as the notebook.
+4. Run the notebook cells from beginning to end.
+
+## Author
+
+**Akansha Yadav**
